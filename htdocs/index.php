@@ -1,0 +1,3 @@
+<?php
+router::route();
+exit;
