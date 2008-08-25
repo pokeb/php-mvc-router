@@ -8,13 +8,13 @@ class projects_controller extends controller {
 
 	// GET /projects
 	function index() {
-		require_once("views/projects.php");
+		require_once("views/projects/index.php");
 		exit;
 	}
 	
 	// GET /projects/1234
 	function view($project) {
-		require_once("views/project.php");
+		require_once("views/projects/project.php");
 		exit;
 	}
 	
@@ -28,7 +28,7 @@ class projects_controller extends controller {
 
 	// GET //projects/1234/items/567
 	function view_item($project,$item) {
-		require_once("views/item.php");
+		require_once("views/projects/item.php");
 		exit;
 	}
 

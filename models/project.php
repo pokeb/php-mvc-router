@@ -13,5 +13,8 @@ class project extends model {
 			$this->is_valid = true;
 		}
 	}
+	
+	function delete() {
+	}
 
 }

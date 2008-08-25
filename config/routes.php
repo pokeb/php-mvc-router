@@ -11,7 +11,7 @@ $GLOBALS['routes'] = array(
 	'/hello-world/[action]' => 'hello_world',
 
 	//Requests to /projects will go to the projects controller inside the admin folder in controllers
-	'/admin/projects' => 'admin/projects',	
+	'/admin/projects/[action]' => 'admin/projects',	
 	
 	//Requests to /non-existent-controller will include /views/non_existent_controller.php, as the controller itself doesn't exist
 	'/non-existent-controller' => 'non_existent_controller',	
